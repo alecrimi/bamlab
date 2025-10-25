@@ -1,10 +1,900 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>My GitHub Page</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Brain and More Lab</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  
 </head>
+
 <body>
-  <h1>Hi!</h1>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:brainandmorelab@gmail.com">brainandmorelab@gmail.com</a>
+        <i class="bi bi-phone-fill phone-icon"></i> +48 575455016
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a href="https://twitter.com/brain_more" target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.facebook.com/dralecrimi" class="facebook"><i class="bi bi-facebook"></i></a> 
+        <a href="https://ch.linkedin.com/in/alecrimi/en" target='_blank' class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">Brain  & More Lab</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+ <a href="index.html">  CrimiLab</a>  
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li> 
+          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">People</a></li>
+          <li><a class="nav-link scrollto" href="#teaching">Teaching</a></li>
+<!-- 
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-1.gif');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Brain and More <span>Lab</span></h2>
+                <p class="animate__animated animate__fadeInUp">Brain and More Lab is the neuroimaging research group <br>
+at AGH, University of Krakow. </p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.gif');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">from Microscopy to MRI</h2>
+                <p class="animate__animated animate__fadeInUp">We investigate the entire spectrum or research related to the
+most important organ of the body. From cellellar and neurobiological level to imaging biomarkers in MRI, and clinical daily 
+translational use.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animate__animated animate__fadeInDown">Neurotech and translational research</h2>
+                <p class="animate__animated animate__fadeInUp">We are also interested in daily use of technology and translation
+of research into available software and startups.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          <div class="col-lg-6 video-box"> 
+  
+<video width="520" height="420" controls autoplay muted>
+<source src="assets/img/conv.mp4"             type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<script>
+    document.getElementById('vid').play();
+</script>
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
+
+            <div class="section-title">
+              <h2>About Us</h2>
+              <p>We are a research group focused on different aspects of neuroimaging, from microscopy to magnetic resonance
+imaging. As the name says we are not limited to neuroimaging but involved also in other medical imaging projects as well as
+translation of research into startups and other forms of inclusion in our society. </p>
+            </div>
+
+          
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><img src="assets/img/agh.png"> </div>
+              <h4 class="title"><a  href="https://www.agh.edu.pl/en/" target="_blank">AGH Krakow</a></h4>
+              <p class="description">located inside the AGH campus</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= About Lists Section ======= -->
+    <section class="about-lists">
+      <div class="container">
+News
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
+            <span>3/10/2021</span>
+            <a href="https://www.meetup.com/sanoscience-brain-lab/" target="_blank"><h4>Brain&More meetup</h4></a>
+            <p>We are starting our outreach activities with AGH students through our meetup</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
+            <span>27/9/2021</span>
+            <a href="http://www.neurosummerschool.org/" target="_blank"><h4>NeuroSummerSchool</h4></a>
+            <p>We are organizing the first summer school in Lipari (Italy) about neuroimaging, neurooncology and neuroscience</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+            <span>26/9/2021</span>
+            <a href="http://www.brainlesion-workshop.org/" target="_blank"><h4> MICCAI Brainlesion workshop</h4></a>
+            <p>For the 5th time we are organizing the MICCAI workpshop on brainlesion also including the BRATS challenge</p>
+          </div>
+ 
+
+        </div>
+
+      </div>
+    </section><!-- End About Lists Section -->
+
+  
+    <!-- ======= Services Section ======= 
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+            <div class="icon"><i class="bi bi-chat-left-dots"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon"><i class="bi bi-bounding-box"></i></div>
+            <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon"><i class="bi bi-globe"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon"><i class="bi bi-broadcast"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon"><i class="bi bi-brightness-high"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon"><i class="bi bi-calendar2-week"></i></div>
+            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          </div>
+        </div>
+
+      </div>
+    </section>  End Services Section -->
+
+    <!-- ======= Our Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="section-title">
+          <h2>Our Portfolio</h2>
+          <p>In this section we list our publications as well as other projects</p>
+        </div>
+<h3><b>Selection Peer-reviewed journals</b></h3>
+
+From Knowledge Generation to Knowledge Verification: Examining the BioMedical Generative Capabilities of ChatGPT
+AA Hamed, A Crimi, MM Misiak, BS Lee
+iScience 28 (6), 6112492
+<br><br>
+
+Synergistic eigenanalysis of covariance and Hessian matrices for enhanced binary classification on health datasets
+A Hartoyo, J Argasiński, A Trenk, K Przybylska, A Błasiak, A Crimi
+Computers in Biology and Medicine 190, 109985
+<br><br>
+
+
+Modeling the Spread of Misfolded Proteins in Alzheimer’s Disease using Higher-Order Simplicial Complex Contagion-IEEE Conference Proceedings
+M Wardynski, I Iacopini, G Petri, V Latora, A Crimi, EBMC 2025
+<br><br>
+
+
+Reshaped functional connectivity gradients in acute ischemic stroke
+C Koba, J Falco-Roget, A Crimi
+NeuroImage: Clinical 45 (2025), 103755
+<br><br>
+
+
+End-to-end stroke imaging analysis using effective connectivity and interpretable artificial intelligence
+W Ciezobka, J Falco-Roget, C Koba, A Crimi
+IEEE Access 2025
+<br><br>
+
+Comparing structure–function relationships in brain networks using EEG and fNIRS
+R Blanco, MG Preti, C Koba, DVD Ville, A Crimi
+Scientific Reports 14 (1), 28976	2024
+<br><br>
+
+Investigating the interaction between EEG and fNIRS: A multimodal network analysis of brain connectivity
+R Blanco, C Koba, A Crimi
+Journal of Computational Science 82, 102416
+<br><br>
+
+Deep learning glioma grading with the tumor microenvironment analysis protocol for comprehensive learning, discovering, and quantifying microenvironmental features
+M Pytlarz, K Wojnicki, P Pilanc, B Kaminska, A Crimi
+Journal of Imaging Informatics in Medicine 37 (4), 1711-1727
+<br><br>
+
+Investigation of Energy-Efficient AI Model Architectures and Compression Techniques for “Green” Fetal Brain Segmentation
+S Mazurek, M Pytlarz, S Malec, A Crimi
+International Conference on Computational Science, 61-74
+<br><br>
+
+Explainable graph neural networks for EEG classification and seizure detection in epileptic patients
+S Mazurek, R Blanco, J Falcó-Roget, A Crimi
+2024 IEEE International Symposium on Biomedical Imaging (ISBI), 1-5
+<br><br>
+
+Functional and structural reorganization in brain tumors: a machine learning approach using desynchronized functional oscillations
+J Falcó-Roget, A Cacciola, F Sambataro, A Crimi
+Communications Biology 7 (1), 419 	
+<br><br>
+
+Prediction of misfolded proteins spreading in Alzheimer’s disease using machine learning and spreading models
+L Gherardini, A Zajdel, L Pini, A Crimi
+Cerebral Cortex 33 (24), 11471-11485
+<br><br>
+
+Style transfer between Microscopy and Magnetic Resonance Imaging via Generative Adversarial Network in small sample size settings
+M Pytlarz, A Onicas, A Crimi
+2023 IEEE International Conference on Image Processing (ICIP), 1120-1124
+<br><br>
+
+Community detection in brain connectomes with hybrid quantum computing
+M Wierzbiński, J Falcó-Roget, A Crimi
+Scientific Reports 13 (1), 3446
+<br><br>
+          <a href="https://www.sciencedirect.com/science/article/pii/S1053811921005644" target="_blank"><p>Structurally Constrained Effective Brain Connectivity
+A Crimi, L Dodero, F Sambataro, V Murino, D Sona
+NeuroImage 239 (1), 118288</p></a>
+          <a href="https://www.sciencedirect.com/science/article/pii/S2211124721005350" target="_blank"><p>An integrated genomic approach to dissect the genetic landscape regulating the cell-to-cell transfer of α-synuclein
+E Kara, A Crimi, A Wiedmer, M Emmenegger, C Manzoni, S Bandres-Ciga, ...
+Cell Reports 35 (10), 109189		2021
+</p></a>
+
+   <a href="https://www.nature.com/articles/s41598-020-58291-1" target="_blank"><p>Genome-wide association study of brain connectivity changes for alzheimer’s disease
+SSM Elsheikh, ER Chimusa, NJ Mulder, A Crimi Nature
+Scientific reports 10 (1), 1-16
+</p></a>
+<br>
+<h3><b>Software</b></h3>
+<br>
+
+<a href="https://pypi.org/project/effconnpy/" target="_blank">
+Effconnpy 0.1.25, A package for causal inference and statistical modeling in brain time series </a>
+ 
+
+<br>
+ <!--
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+-->
+      </div>
+    </section><!-- End Our Portfolio Section -->
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>People</h2>
+          <p>Current and past members.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dr. Alessandro Crimi</h4>
+                <span>Research Group leader</span>
+                <div class="social">
+                  <a href="mailto:a.crimi@sano.science"  target="_blank"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://twitter.com/Dr_Alex_Crimi" target="_blank"><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.facebook.com/dralecrimi"  target="_blank"><i class="bi bi-facebook"></i></a> 
+                  <a href="https://www.linkedin.com/in/alecrimi/"  target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sylwia Malec</h4>
+                <span>PhD student</span>
+                <div class="social">
+                  <a href="mailto:s.malec@sano.science"  target="_blank"><i class="bi bi-envelope-fill"></i></a> 
+                  <a href="https://twitter.com/brain_more" target="_blank"><i class="bi bi-twitter"></i></a>  
+                  <a href="https://www.linkedin.com/in/sylwia-malec-795144150" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Luca Gherardini</h4>
+                <span>PhD student</span>
+                <div class="social">
+                  <a href="mailto:l.gherardini@sano.science"  target="_blank"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://twitter.com/brain_more" target="_blank"><i class="bi bi-twitter"></i></a> 
+                  <a href="https://it.linkedin.com/in/luca-gherardini-3b32b11a7" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Aleksandra Pestka</h4>
+                <span>Master student</span>
+                <div class="social">
+                  <a href="mailto:a.pestka@sano.science"  target="_blank"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://twitter.com/brain_more" target="_blank"><i class="bi bi-twitter"></i></a> 
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-5.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Marcin Wierzbiński
+</h4>
+                <span>Scientific software engineer</span>
+                <div class="social">
+                  <a href="mailto:m.Wierzbinski@sano.science"  target="_blank"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://twitter.com/brain_more" target="_blank"><i class="bi bi-twitter"></i></a> 
+                  <a href="https://www.linkedin.com/in/mwierzbniski/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+
+ <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-6.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Joan Falco Roget
+</h4>
+                <span>PhD student</span>
+                <div class="social">
+                  <a href="mailto:j.roget@sano.science"  target="_blank"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://twitter.com/brain_more" target="_blank"><i class="bi bi-twitter"></i></a> 
+                  <a href="https://www.linkedin.com/in/joan-falc%C3%B3-roget-8080a219a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+
+ <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team-g.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Monika Pytlarz</h4>
+                <span>PhD student</span>
+                <div class="social">
+                  <a href="mailto:m.pytlarz@sano.science"  target="_blank"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://twitter.com/brain_more" target="_blank"><i class="bi bi-twitter"></i></a> 
+                  <a href="https://www.linkedin.com/in/mnk-pltrz/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+
+ <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/team_dog.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Lola
+</h4>
+                <span>Visiting professor</span>
+                <div class="social">
+                  <a href="mailto:s.malec@sano.science"  target="_blank"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://twitter.com/brain_more" target="_blank"><i class="bi bi-twitter"></i></a> 
+                  <a href="https://www.linkedin.com/in/sylwia-malec-795144150" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+ 
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team composition and role</h2>
+        </div>
+
+        <div class="row  d-flex align-items-stretch">
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up">
+            <h4>Dr. Alessandro Crimi</h4>
+            <p>
+              is the head of the research unit.
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="100">
+            <h4>Sylwia Malec</h4>
+            <p>
+              is working on deep learning based registration and multimodal image analysis of COVID19/Asthma infections
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="200">
+                       <h4>Luca Gherardini</h4>
+            <p>
+             is working on comparing neurodegenerations as Parkinson's and Alzheimer's disease from the point of view of connectomics and topological genomic spaces.
+            </p>
+          </div>
+
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="300">
+                        <h4>Aleksandra Pestka</h4>
+            <p>
+              is working on validating models of misfolded protein spreading on brain structural data as connectome.
+            </p>
+          </div>
+
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="400">
+                       <h4>Marcin Wierzbiński</h4>
+            <p>
+              is working on protein and drug design optimized on quantum devices.
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="400">
+                       <h4>Joan Falco Roget</h4>
+            <p>
+              is working on plasticity quantification on glioma and stroke patients.
+            </p>
+          </div>
+
+ 
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="500">
+                       <h4>Monika Pytlarz</h4>
+            <p>
+              is working on microscopy image analysis and generative adversial networks.
+            </p>
+          </div>
+
+          <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="500">
+                       <h4>Lola</h4>
+            <p>
+              is our expert in psychological support.
+            </p>
+          </div>
+ 
+
+        </div>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+
+    <!-- ======= Teaching Section ======= -->
+    <section id="teaching" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Teaching</h2>
+          <p>Courses taught either in person or online.</p>
+        </div>
+
+<div class="row">
+          <a href="https://github.com/alecrimi/ML4Neuro/" target="_blank">  "Machine learning for Neuroimaging and neuroscience" at AGH University of Krakow </a>
+        </div>
+ 
+
+
+        <div class="row">
+          <a href="https://sites.google.com/a/aims.edu.gh/pattern-recognition/" target="_blank"> AIMS-Ghana and AIMS-SouthAfrica 2020-2021 "Machine learning in medicine" </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact Us</h2>
+
+<p>Feel free to contact us   to apply for positions  or establish synergetic collaborations! </p>
+<br>Check positions on the main AGH webiste </a><br>
+or through programs we are used to:<br>
+<a href="https://us.fulbrightonline.org/countries/europe-and-eurasia/poland/204" target="_blank"><img src="assets/img/fullbright.png"   class="img-fluid" width=300> </a> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+
+<a href="https://www.facultyforthefuture.net/" target="_blank"><img src=assets/img/fff.svg class="img-fluid" width=300> </a>
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+<a href="https://ncn.gov.pl/en/polonez#" target="_blank"><img src=assets/img/polonez.png class="img-fluid" width=300> </a>
+<br>
+<br>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-6 d-flex" data-aos="fade-up">
+            <div class="info-box">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+
+          <p><br>
+             
+ <br>
+ 
+
+              <p>  AGH, University of Krakow,  Aleja Adama Mickiewicza 30, 30-059  Kraków, Poland</p>
+15-20 minutes far from Krakow main station
+            </div>
+          </div>
+
+          <div class="col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="info-box">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>brainandmorelab@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-box ">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p> +48 123072737</p>
+            </div>
+          </div>
+</div>
+          <div class="row">
+
+          <div class="col-lg-6 d-flex" data-aos="fade-up">
+          <img src="assets/img/map.png"   class="img-fluid">
+ 
+          </div>
+     <div class="col-lg-6 d-flex" data-aos="fade-up">
+          <img src="assets/img/building.png"   class="img-fluid">
+ 
+          </div>
+<!--    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-lg-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-lg-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+-->
+      </div>
+    </section><!-- End Contact Us Section -->
+
+  </main><!-- End #main -->
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Brain and More Lab</h3>
+            <p>AGH, University of Krakow<br>
+             Aleja Adama Mickiewicza 30,  
+ <br>
+              30-059 Kraków, Poland<br><br>
+              <strong>Phone:</strong>  +48 575455016<br>
+              <strong>Email:</strong> brainandmorelab@gmail.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/brain_more" target='_blank'  class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>  
+              <a href="https://ch.linkedin.com/in/alecrimi" target='_blank' class="linkedin"><i class="bi bi-linkedin"></i></a>  
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+        <!--       <img src="assets/img/Logotypy.png"   alt="">  -->
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
